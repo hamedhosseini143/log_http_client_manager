@@ -1,0 +1,38 @@
+operations:
+  filesUpload:
+    httpMethod: "POST"
+    uri: "api/v1/files/upload"
+    responseClass: "ProductResponse"
+    summary: "Upload files error 500"
+  getProduct:
+    httpMethod: "GET"
+    uri: "api/v1/products"
+    responseClass: "ProductList"
+    summary: "Get products 200"
+  getProductError:
+    httpMethod: "POST"
+    uri: "api/v1/products"
+    responseClass: "ProductResponse"
+    summary: "Get products error 400"
+models:
+  ProductResponse:
+    type: "object"
+    location: "json"
+    properties:
+      id:
+        location: "json"
+        type: "integer"
+  ProductList:
+    type: "array"
+    location: "json"
+    items:
+      $ref: "ProductResponse"
+
+
+
+
+
+
+
+
+

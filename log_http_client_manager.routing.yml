@@ -1,0 +1,7 @@
+log_http_client_manager.example:
+  path: '/log-http-client-manager/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\log_http_client_manager\Controller\LogHttpClientManagerController'
+  requirements:
+    _permission: 'access content'

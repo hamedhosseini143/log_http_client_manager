@@ -1,0 +1,5 @@
+name: "[custom] Log HTTP Client Manager API"
+apiVersion: 1.0
+description: "Log HTTP Client Manager API"
+imports:
+  - "resources/log.yml"

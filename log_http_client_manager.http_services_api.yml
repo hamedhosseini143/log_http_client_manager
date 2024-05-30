@@ -1,0 +1,7 @@
+api_log_service:
+  title: "api_log_service"
+  api_path: "src/api/api_log_services.yml"
+  config:
+    base_uri: "https://api.escuelajs.co"
+    debug: 1
+    timeout: 5

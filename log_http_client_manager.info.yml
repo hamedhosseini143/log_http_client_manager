@@ -1,0 +1,5 @@
+name: 'log http client manager'
+type: module
+description: 'http client manager'
+package: Custom
+core_version_requirement: ^10 || ^11
